@@ -2,8 +2,9 @@
   "name": "x7-eventbus",
   "version": "0.1.0",
   "description": "A simple event bus for JS/TS/ECMA projects",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/X7-CREATIVE-LLC/utils-eventbus/issues"
   },
-  "homepage": "https://github.com/X7-CREATIVE-LLC/utils-eventbus#readme"
+  "homepage": "https://github.com/X7-CREATIVE-LLC/utils-eventbus#readme",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
 }
