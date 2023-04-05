@@ -1,0 +1,28 @@
+{
+  "name": "x7-eventbus",
+  "version": "0.1.0",
+  "description": "A simple event bus for JS/TS/ECMA projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X7-CREATIVE-LLC/utils-eventbus.git"
+  },
+  "keywords": [
+    "typescript",
+    "event",
+    "bus",
+    "event",
+    "pubsub",
+    "publish",
+    "subscribe"
+  ],
+  "author": "X7 CREATIVE LLC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/X7-CREATIVE-LLC/utils-eventbus/issues"
+  },
+  "homepage": "https://github.com/X7-CREATIVE-LLC/utils-eventbus#readme"
+}
