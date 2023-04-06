@@ -9,4 +9,4 @@ on:
 
 jobs:
   build:
-    uses: X7-CREATIVE-LLC/shared-workflows/.github/workflows/nodejs-build-and-test-package-workflow.yml@main
+    uses: X7-CREATIVE-LLC/shared-workflows/blob/main/.github/workflows/nodejs-build-and-test-package-workflow.yml@main
