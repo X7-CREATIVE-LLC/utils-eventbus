@@ -8,5 +8,13 @@ on:
   pull_request:
 
 jobs:
-  build:
-    uses: X7-CREATIVE-LLC/shared-workflows/.github/workflows/nodejs-build-and-test-package-workflow.yml@main
+  build_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ vars.NODE_VERSION }}
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm run test --if-present
