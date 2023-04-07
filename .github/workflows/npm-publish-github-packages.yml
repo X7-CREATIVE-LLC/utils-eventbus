@@ -9,7 +9,6 @@ on:
 
 jobs:
   publish_package:
-    needs: build_and_test
     runs-on: ubuntu-latest
     permissions:
       contents: read
